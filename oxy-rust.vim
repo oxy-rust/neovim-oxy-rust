@@ -62,15 +62,19 @@ hi cssAttr guifg=#a9cdf8 guibg=NONE
 hi Pmenu guifg=#ffb5a1 guibg=#252525
 hi SignColumn guibg=#140f14
 hi Title guifg=#ffb5a1
-hi LineNr guifg=#c10a37 guibg=#140f14
+hi LineNr guifg=#883333 guibg=#140f14                          "the line numbers
 hi NonText guifg=#723e1b guibg=#140f14
-hi Comment guifg=#723e1b gui=italic
-hi SpecialComment guifg=#723e1b gui=italic guibg=NONE
+
+hi Comment guifg=#723e1b gui=italic                            "comments
+hi SpecialComment guifg=#723e1b gui=italic guibg=NONE          "how does this differ from the previous?
+
 hi CursorLine guibg=#252525
 hi TabLineFill gui=NONE guibg=#252525
 hi TabLine guifg=#c10a37 guibg=#252525 gui=NONE
 hi StatusLine gui=bold guibg=#252525 guifg=#ffb5a1
 hi StatusLineNC gui=NONE guibg=#140f14 guifg=#ffb5a1
 hi Search guibg=#723e1b guifg=#ffb5a1
-hi VertSplit gui=NONE guifg=#252525 guibg=NONE
-hi Visual gui=NONE guibg=#252525
+hi VertSplit gui=NONE guifg=#050505 guibg=NONE                 "the vertical separators
+hi Visual gui=NONE guibg=#883311                               "selected text... why didn't they just name it that?
+
+hi EndOfBuffer guifg=#140f14                                   "the tildes that fill the unused lines (same as background color)
